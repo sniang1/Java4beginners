@@ -7,7 +7,7 @@ public class Main {
         double n = 180;
         double m = p * ((r* Math.pow((1+r), n))/ (Math.pow((1+r), n) - 1));
         //NumberFormat result = currency.format
-        System.out.println("your morgage is " + m);
+        System.out.println("your morgage is $" + m);
     }
     
 }
