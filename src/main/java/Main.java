@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner input = input new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("please enter the principal");
         double p = input.nextDouble();
         System.out.println("please enter rate");
@@ -13,7 +13,7 @@ public class Main {
         double n = input.nextDouble();
         double m = p * ((r* Math.pow((1+r), n))/ (Math.pow((1+r), n) - 1));
         int mortgage = (int) m;
-        String mortgageFormatted = NumberFormat.getCurrencyInstance().format();
+        //String mortgageFormatted = NumberFormat.getCurrencyInstance().format();
         System.out.println("your mortgage is $" + mortgage);
     }
     
