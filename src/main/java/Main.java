@@ -13,7 +13,7 @@ public class Main {
         double n = input.nextDouble();
         double m = p * ((r* Math.pow((1+r), n))/ (Math.pow((1+r), n) - 1));
         int mortgage = (int) m;
-        //String mortgageFormatted = NumberFormat.getCurrencyInstance().format();
+        String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
         System.out.println("your mortgage is $" + mortgage);
     }
     
